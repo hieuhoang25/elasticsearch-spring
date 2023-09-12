@@ -33,7 +33,6 @@ Ví dụ: Chúng ta có 2 văn bản cụ thể sau:
 2,Quick brown foxes leap over lazy dogs in summer
 ```
 Để tạo ra một inverted index, trước hết dhungd ta sẽ phân chia noi dung của từng tài liệu thành các từ riêng biêt(chúng tôi gọi terms) tạo một danh sách được sắp xeoes của tất cả terms duy nhât, sau đó liệt kê tài liệu nào mà mỗi thuật ngữ xuất hiện. Kết quả như sau:
-
 Term      Doc_1  Doc_2
 -------------------------
 Quick   |       |  X
@@ -52,9 +51,7 @@ quick   |   X   |
 summer  |       |  X
 the     |   X   |
 ------------------------
-
 Bây giờ chúng ta muốn tìm kiếm màu quick brown, chúng tả chỉ cần tìm trong các tài liệu trong đó mõi thuật ngữ có xuất hiện hay không kêt quả nh sau:
-
 Term      Doc_1  Doc_2
 -------------------------
 brown   |   X   |  X
